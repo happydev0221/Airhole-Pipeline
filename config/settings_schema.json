@@ -798,6 +798,26 @@
       },
       {
         "type": "header",
+        "content": "POLARTEC® POWER DRY®"
+      },
+      {
+        "type": "textarea",
+        "id": "fabric_text_polartec_power_dry",
+        "label": "Fabric description"
+      },
+      {
+        "type": "text",
+        "id": "fabric_icon_polartec_power_dry",
+        "label": "Temperature icon",
+        "info": "Paste icon svg link here"
+      },
+      {
+        "type": "text",
+        "id": "fabric_subtext_polartec_power_dry",
+        "label": "Fabric Rating"
+      },
+      {
+        "type": "header",
         "content": "10K Softshell"
       },
       {
@@ -894,6 +914,26 @@
       {
         "type": "text",
         "id": "fabric_subtext_insulated",
+        "label": "Fabric Rating"
+      },
+      {
+        "type": "header",
+        "content": "POLARTEC® SHEARLING FLEECE"
+      },
+      {
+        "type": "textarea",
+        "id": "fabric_text_polartec_shearling_fleece",
+        "label": "Fabric description"
+      },
+      {
+        "type": "text",
+        "id": "fabric_icon_polartec_shearling_fleece",
+        "label": "Temperature icon",
+        "info": "Paste icon svg link here"
+      },
+      {
+        "type": "text",
+        "id": "fabric_subtext_polartec_shearling_fleece",
         "label": "Fabric Rating"
       }
     ]

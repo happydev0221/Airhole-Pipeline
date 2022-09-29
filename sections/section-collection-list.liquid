@@ -1,50 +1,57 @@
 {%- for product in collection.products -%}
 
   {%- liquid
-    assign fabric = product.metafields.global.fabric
-    assign fabric_handle = fabric | handle | replace: '-', '_'
-
-    assign var_fabric_text = 'fabric_text_' | append: fabric_handle
-    assign fabric_text = settings[var_fabric_text]
-
-    assign fabric_icon_var = 'fabric_icon_' | append: fabric_handle
-    assign fabric_icon = settings[fabric_icon_var]
-
-    assign fabric_rating_var = 'fabric_subtext_' | append: fabric_handle
-    assign fabric_rating = settings[fabric_rating_var]
-    
-    for option in product.options_with_values
-      if option.name == 'Color' or option.name == 'color'
-        assign number_of_colors = option.values | size
-      endif
-    endfor
-
-  -%}
+       assign fabric = product.metafields.global.fabric
+       assign fabric_handle = fabric | handle | replace: '-', '_'
+   
+       assign var_fabric_text = 'fabric_text_' | append: fabric_handle
+       assign fabric_text = settings[var_fabric_text]
+   
+       assign fabric_icon_var = 'fabric_icon_' | append: fabric_handle
+       assign fabric_icon = settings[fabric_icon_var]
+   
+       assign fabric_rating_var = 'fabric_subtext_' | append: fabric_handle
+       assign fabric_rating = settings[fabric_rating_var]
+       
+       for option in product.options_with_values
+         if option.name == 'Color' or option.name == 'color'
+           assign number_of_colors = option.values | size
+         endif
+       endfor
+   
+     -%}
 
   {%- capture slide_content -%}
     {% if collection.title == fabric or fabric == blank %}
-      <h5 class="pt1">{{ product.title | split: ' | ' | first }}</h5>
-	  <p>{{ product.metafields.descriptors.subtitle }}</p>
-	{% else %}
-      <p class="uppercase pt1">{{ fabric }}</p>
-	  <h5>{{ product.title | split: ' | ' | first }}</h5>
-      <p>{{ fabric_text | split: '.' | first }}</p>
+      <h5 class="pt1">{{ product.title | split: ' | ' | first }}
+      </h5>
+      <p>{{ product.metafields.descriptors.subtitle }}
+      </p>
+    {% else %}
+      <p class="uppercase pt1">{{ fabric }}
+      </p>
+      <h5>{{ product.title | split: ' | ' | first }}
+      </h5>
+      <p>{{ fabric_text | split: '.' | first }}
+      </p>
       <p class="strong mt1">
         FABRIC RATING<br>
         <img src="{{ fabric_icon }}" style="max-width: 200px;"><br>
-        {{ fabric_rating }}</p>
+        {{ fabric_rating }}
+      </p>
     {% endif %}
-    <a class="text-link" href="{{ product.url }}">{{ number_of_colors }} Colors</a>
+    <a class="text-link" href="{{ product.url }}">{{ number_of_colors }}
+      Colors</a>
   {%- endcapture -%}
 
   {%- capture tabs -%}
 
-   {{ tabs }}
+    {{ tabs }}
     <div class="{{ block.settings.bg }} mt1">
       <div class="product-grid-slide custom_slide medium-up--hide section bg--accent mb1 pt1 pl1 pb1 pr1">
         {{ slide_content }}
       </div>
-      
+
       <div class="flickity-grid" data-slider data-grid-large="{{ section.settings.grid }}">
 
         <div class="product-grid-slide custom_slide small-down--hide bg--accent">
@@ -53,39 +60,39 @@
 
         <!-- /snippets/product-grid-item.liquid -->
 
-          {% assign has_color = false %}
-          {% assign index = 0 %}
-          {% for option in product.options %}
-            {% assign option_downcase = option | downcase %}
-            {% if option_downcase == 'color' or option_downcase == 'colour' %}
-              {% assign has_color = true %}
-              {% assign index = forloop.index0 %}
+        {% assign has_color = false %}
+        {% assign index = 0 %}
+        {% for option in product.options %}
+          {% assign option_downcase = option | downcase %}
+          {% if option_downcase == 'color' or option_downcase == 'colour' %}
+            {% assign has_color = true %}
+            {% assign index = forloop.index0 %}
+          {% endif %}
+        {% endfor %}
+        {% if settings.split_color_variants and has_color %}
+          {% assign colors = '' %}
+          {% for variant in product.variants %}
+            {% assign color = variant.options[index] %}
+            {% assign color_handle = 'Color_' | append: color | handle %}
+            {% if colors contains color %}
+              {% continue %}
             {% endif %}
+            {% assign colors = colors | append: '-' | append: color %}
+            <div class="product-grid-slide">
+              {% render 'product-variant-item' with
+                                 product: product,
+                   color: color,
+                   color_index: index,
+                   swatches_enabled: show_swatches,
+                   aspect_ratio: aspect_ratio
+                   %}
+            </div>
           {% endfor %}
-          {% if settings.split_color_variants and has_color %}
-            {% assign colors = '' %}
-            {% for variant in product.variants %}
-              {% assign color = variant.options[index] %}
-              {% assign color_handle = 'Color_' | append: color | handle %}
-              {% if colors contains color %}
-                {% continue %}
-              {% endif %}
-              {% assign colors = colors | append: '-' | append: color %}
-              <div class="product-grid-slide">
-                {% render 'product-variant-item' with
-                              product: product,
-                color: color,
-                color_index: index,
-                swatches_enabled: show_swatches,
-                aspect_ratio: aspect_ratio
-                %}
-              </div>
-            {% endfor %}
-          {% else %}
+        {% else %}
           <div class="product-grid-slide">
             {% render 'product-grid-item', product: product %}
           </div>
-          {% endif %}
+        {% endif %}
 
       </div>
     </div>
@@ -93,18 +100,18 @@
 {%- endfor -%}
 
 
-<div class="homepage-collection-tabs collection-list-sliders"
-  data-section-id="{{ section.id }}"
-  data-section-type="collection-tabs">
+<div class="homepage-collection-tabs collection-list-sliders" data-section-id="{{ section.id }}" data-section-type="collection-tabs">
   <div class="wrapper--full collection-tabs" data-tabs-holder>
     <div class="tab__scroll">
 
       <button type="button" class="tabs__arrow tabs__arrow--prev tabs-collections__arrow tabs-collections__arrow--prev is-hidden" data-scrollbar-arrow-prev>
-        <span class="visually-hidden">{{ 'general.accessibility.see_all' | t }}</span>
+        <span class="visually-hidden">{{ 'general.accessibility.see_all' | t }}
+        </span>
       </button>
 
       <button type="button" class="tabs__arrow tabs__arrow--next tabs-collections__arrow tabs-collections__arrow--next is-hidden" data-scrollbar-arrow-next>
-        <span class="visually-hidden">{{ 'general.accessibility.see_all' | t }}</span>
+        <span class="visually-hidden">{{ 'general.accessibility.see_all' | t }}
+        </span>
       </button>
     </div>
 
@@ -114,62 +121,67 @@
 </div>
 
 {% schema %}
-{
-  "name": "Collection product list",
-  "settings": [
-    {
-      "type": "select",
-      "id": "align_title",
-      "label": "Text alignment",
-      "default": "text-center",
-      "options": [
-        {
-          "value": "text-left",
-          "label": "Left"
-        },
-        {
-          "value": "text-center",
-          "label": "Centered"
-        }
-      ]
-    },
-    {
-      "type":    "range",
-      "id":      "grid",
-      "min":     1,
-      "max":     6,
-      "step":    1,
-      "default": 3,
-      "label":   "Products per row"
-    },
-    {
-      "type":    "range",
-      "id":      "limit",
-      "min":     1,
-      "max":     20,
-      "step":    1,
-      "default": 6,
-      "label":   "Product limit",
-      "info": "Loading a large number of products can affect page speed"
-    },
-    {
-      "type": "select",
-      "id": "bg",
-      "label": "Background color",
-      "default": "section bg--neutral",
-      "options": [
-        { "value": "section bg--neutral", "label": "Default"},
-        { "value": "section bg--accent", "label": "Light"},
-        { "value": "section--dark bg--invert", "label": "Dark"},
-        { "value": "section--dark bg--invert--accent", "label": "Dark accent"}
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "category": "Collection",
-      "name": "Collection product list"
-    }
-  ]
-}
+  {
+    "name": "Collection product list",
+    "settings": [
+      {
+        "type": "select",
+        "id": "align_title",
+        "label": "Text alignment",
+        "default": "text-center",
+        "options": [
+          {
+            "value": "text-left",
+            "label": "Left"
+          }, {
+            "value": "text-center",
+            "label": "Centered"
+          }
+        ]
+      }, {
+        "type": "range",
+        "id": "grid",
+        "min": 1,
+        "max": 6,
+        "step": 1,
+        "default": 3,
+        "label": "Products per row"
+      }, {
+        "type": "range",
+        "id": "limit",
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "default": 6,
+        "label": "Product limit",
+        "info": "Loading a large number of products can affect page speed"
+      }, {
+        "type": "select",
+        "id": "bg",
+        "label": "Background color",
+        "default": "section bg--neutral",
+        "options": [
+          {
+            "value": "section bg--neutral",
+            "label": "Default"
+          }, {
+            "value": "section bg--accent",
+            "label": "Light"
+          }, {
+            "value": "section--dark bg--invert",
+            "label": "Dark"
+          }, {
+            "value": "section--dark bg--invert--accent",
+            "label": "Dark accent"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "category": "Collection",
+        "name": "Collection product list"
+      }
+    ]
+  }
 {% endschema %}
