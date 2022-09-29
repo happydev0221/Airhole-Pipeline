@@ -1,0 +1,279 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": false,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    },
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/airhole-brand-hero_2000x_91e86181-bcbb-47ae-a8bd-48777b48be21.jpg",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Our Brand",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1634265713a3d3dca1": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "",
+        "text": "<p>Since 2006 Airhole has continued to develop and lead the facemask industry with technical fabrics, tailored fits and the best graphics. Our mission: to defend adventurers from the elements.<br\/><br\/>#Airhole<\/p>",
+        "textarea": "",
+        "list": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "4ff24ce6-4c65-4976-ab71-d5d68c890362": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_banner_02_1000x_ebbcbddc-9533-488c-9778-f0f4cac55d96.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "custom-content-2-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Our Story",
+            "text": "<p>Tired of the lack of technical face protection available and facing severe weather in the backcountry, Canadian professional snowboarders Chris Brown and Kale Stephens knew there had to be a better way of dealing with a wet mask from heavy breathing and extreme conditions.<br\/><br\/>Taking to Kale's grandma's old sewing machine, they re-purposed discarded outerwear jackets, cutting them into different shapes, sizes and fits to find the perfect mask. The result was the patented Airhole Breath Hole built into ergonomically shapes masks made from technical fabrics.<\/p>",
+            "product_description": false,
+            "use_fabric": false,
+            "textarea": "",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#f0f8fd"
+          }
+        }
+      },
+      "block_order": [
+        "4ff24ce6-4c65-4976-ab71-d5d68c890362",
+        "custom-content-2-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "163426572166c9f4ce": {
+      "type": "section-custom-content",
+      "blocks": {
+        "55bd2e02-f03b-4148-8128-2c9e7e50bc8a": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Technology",
+            "text": "<p>The Airhole is standard on all of our masks and is designed to allow breath to escape freely, avoiding the build up of condensation to keep you dry, warm and your goggles fog free. Stay out there longer.<\/p>",
+            "product_description": false,
+            "use_fabric": false,
+            "textarea": "",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--white",
+            "bg_color": "#000000"
+          }
+        },
+        "8b36fa6f-5954-4cba-a389-fed788868418": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2Layer_1296x_33698d0b-b4fd-48ca-a6ba-4a65ccbdeb01.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "55bd2e02-f03b-4148-8128-2c9e7e50bc8a",
+        "8b36fa6f-5954-4cba-a389-fed788868418"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "16342658421f6b6071": {
+      "type": "section-custom-content",
+      "blocks": {
+        "e854694d-ea9d-4fe0-9896-f2a26bdc42d3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_banner_03_1000x_5591cf1c-2fc0-4a13-9009-27b606c4b639.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "e1ab9944-e069-4609-a4e8-b030a360fdc6": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Our Backyard",
+            "text": "<p>Living and working in Vancouver, British Columbia, we sit at the gateway to some of the most beautiful and challenging terrain on earth. The Coast Mountains are our backyard and where we test all of our products. We design by doing and our surroundings are what enables us to develop the most technical face protection in the world.<\/p>",
+            "product_description": false,
+            "use_fabric": false,
+            "textarea": "",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#f0f8fd"
+          }
+        }
+      },
+      "block_order": [
+        "e854694d-ea9d-4fe0-9896-f2a26bdc42d3",
+        "e1ab9944-e069-4609-a4e8-b030a360fdc6"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "163426593942d2dbbf": {
+      "type": "section-custom-content",
+      "blocks": {
+        "62c4e808-e0f8-4d1a-a634-c8e666fda6cf": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Retail Locations",
+            "text": "<p>We stock in retailers globally. Find our masks at a shop near you<\/p>",
+            "product_description": false,
+            "use_fabric": false,
+            "textarea": "",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Find A Retailer",
+            "button_url": "\/pages\/store-locator",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#f4f4f4"
+          }
+        },
+        "b649fe33-3fd7-4e41-b5d6-a3e5af165120": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_banner_04_1000x_4e727704-a33e-44d9-943a-777f81fe25cb.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "62c4e808-e0f8-4d1a-a634-c8e666fda6cf",
+        "b649fe33-3fd7-4e41-b5d6-a3e5af165120"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero",
+    "1634265713a3d3dca1",
+    "custom-content-2",
+    "163426572166c9f4ce",
+    "16342658421f6b6071",
+    "163426593942d2dbbf"
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TylerRavelle-3090.jpg",
+        "bg_position": "left-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "NEW COLLECTIONS + STYLES",
+        "title": "Coming Soon",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--neutral",
+        "link_text": "Shop available",
+        "link": "shopify:\/\/collections\/2122",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline"
+      }
+    },
+    "1637861584f177c330": {
+      "type": "section-slideshow",
+      "disabled": true,
+      "blocks": {
+        "16378615846bd16f0e-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bf-airhole-header.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "BOXING WEEK SALE",
+            "title": "50% OFF SELECT STYLES",
+            "richtext": "",
+            "text_align": "align--middle-left",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify:\/\/collections\/sale",
+            "button_color": "btn--white",
+            "button_style": "btn--outline"
+          }
+        },
+        "16378615846bd16f0e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TylerRavelle-3090.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "New collections + Styles",
+            "title": "Winter Styles Are Here",
+            "richtext": "",
+            "text_align": "align--middle-left",
+            "text_color": "text--neutral",
+            "link_text": "Shop What's New",
+            "link": "shopify:\/\/collections\/2122",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline"
+          }
+        }
+      },
+      "block_order": [
+        "16378615846bd16f0e-0",
+        "16378615846bd16f0e-1"
+      ],
+      "settings": {
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "height": "use_screen_one_half"
+      }
+    },
+    "tabs": {
+      "type": "section-collection-tabs",
+      "blocks": {
+        "17a2a636-100a-4571-bdb7-71280c8fa0e2": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/daily_category_feature_1200x_842e9a8d-eb68-45f8-b2f2-11265a2420da.jpg",
+            "collection": "daily",
+            "title": "Daily Masks"
+          }
+        },
+        "tab-0": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AHA2PL-HRGY_1_1200x_2ff4bbe2-3c0a-4493-9bbc-48c0838f08fe.jpg",
+            "collection": "airtubes",
+            "title": "Airtubes"
+          }
+        },
+        "59eaa063-63ae-4d0a-bbd7-71cbae6795e3": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AHS12L-SNGT-ML_1200x_8a6bc19d-f7d8-4a1e-9e95-2c304aea3649.jpg",
+            "collection": "facemasks",
+            "title": "Facemasks"
+          }
+        },
+        "1b055b63-4363-4fa6-a17c-30800eec6ee8": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AHB6MF-SLT_1_1200x_0bfe3fff-99d9-4267-a89f-e0ce7e9eec15.jpg",
+            "collection": "balaclavas",
+            "title": "Balaclavas"
+          }
+        },
+        "1672bd34-0720-4fe9-9b48-633a38e55b20": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AHB3PLHF-BLK_1200x_4c41a4a0-e491-4b72-9ab9-d82c3a52548e.jpg",
+            "collection": "airhoods",
+            "title": "Airhoods"
+          }
+        },
+        "207ab2b1-be7b-4ec5-a450-d947ec456011": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AHB7RS-SNCM_1200x_a7d16c72-9498-4ee5-af05-59bf87f2562b.jpg",
+            "collection": "tech-hats",
+            "title": "Tech Hats"
+          }
+        },
+        "13d369df-0270-4cb0-9ae6-71fb6f429cc2": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AHA2MKJR-CNCM_1200x_b50f42cd-4c1e-442f-95cf-6e767ec28f1e.jpg",
+            "collection": "junior",
+            "title": "Youth"
+          }
+        }
+      },
+      "block_order": [
+        "17a2a636-100a-4571-bdb7-71280c8fa0e2",
+        "tab-0",
+        "59eaa063-63ae-4d0a-bbd7-71cbae6795e3",
+        "1b055b63-4363-4fa6-a17c-30800eec6ee8",
+        "1672bd34-0720-4fe9-9b48-633a38e55b20",
+        "207ab2b1-be7b-4ec5-a450-d947ec456011",
+        "13d369df-0270-4cb0-9ae6-71fb6f429cc2"
+      ],
+      "settings": {
+        "title": "Shop Categories",
+        "align_title": "text-left",
+        "grid": 5,
+        "limit": 5,
+        "bg": "section bg--neutral",
+        "collections_slider": true,
+        "aspect_ratio": 1
+      }
+    },
+    "163466708057c0c9e3": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 0px 30px 0px 30px;'>\n<hr>\n<\/div>",
+        "full_width": true
+      }
+    },
+    "1631312331b6a3d472": {
+      "type": "section-columns",
+      "blocks": {
+        "1631312331b6a3d472-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-18_at_2.36.35_PM.png",
+            "title": "Bestsellers",
+            "text": "",
+            "list": "",
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/bestsellers",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1631312331b6a3d472-0": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/insulated_coll_1200x_e7a96929-7336-4c86-95c8-ab756efed2ad.jpg",
+            "title": "Iridescent Insulated",
+            "text": "",
+            "list": "",
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/iridescent-insulated",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1631312331b6a3d472-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/covert_coll_2_1200x_2856a1b2-9959-4438-80ae-d7485c8d1c94.jpg",
+            "title": "Covert",
+            "text": "",
+            "list": "",
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/covert",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "1631312331b6a3d472-1",
+        "1631312331b6a3d472-0",
+        "1631312331b6a3d472-2"
+      ],
+      "settings": {
+        "title": "Featured Collections",
+        "align_title": "text-left",
+        "bg": "section bg--neutral",
+        "align_text": "text-left",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    },
+    "1634671241cbd9d36f": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 30px 30px 30px 30px;'><\/div>",
+        "full_width": true
+      }
+    },
+    "1634592372a9505d0b": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kale_collection_2000x_e1643eaa-9500-4f4b-a7d2-7ffe85e43793.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Kale's Collection",
+        "richtext": "<p>Select products by Kale Stephens<\/p>",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "Shop Now",
+        "link": "shopify:\/\/collections\/kale",
+        "button_color": "btn--white",
+        "button_style": "btn--outline"
+      }
+    },
+    "1634593603c423439a": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "collection": "kale",
+        "grid": 4,
+        "rows": 1,
+        "bg": "section bg--neutral",
+        "show_view_all": false
+      }
+    },
+    "163468562137244523": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 30px 30px 30px 30px;'><hr><\/div>",
+        "full_width": true
+      }
+    },
+    "16348394442cf55cbd": {
+      "type": "section-double",
+      "blocks": {
+        "16348394442cf55cbd-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TylerRavelle-8637_1-1_1_1200x_37f61a83-aeed-4f85-b953-ea4078aab0e6.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "16348394442cf55cbd-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Daily Masks",
+            "text": "<p>Engineered for your daily comfort and protection, our hugely popular Daily Masks are available in a range of colours and prints. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/daily",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16348394442cf55cbd-1",
+        "16348394442cf55cbd-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "16346848119cb239f8": {
+      "type": "section-double",
+      "blocks": {
+        "16346848119cb239f8-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Youth Collection",
+            "text": "<p>Our youth collection combines our bestselling fabrics with our easiest to use masks. Recommended for little ones aged 2-10. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/junior",
+            "button_color": "btn--black",
+            "button_style": "btn--outline uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "16346848119cb239f8-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/junior_coll_1200x_ace3fcb4-22d0-4244-ba64-c35c9f659b12.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/junior",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "16346848119cb239f8-0",
+        "16346848119cb239f8-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "163484014933e7b5c9": {
+      "type": "section-html",
+      "disabled": true,
+      "settings": {
+        "html": "<div style='text-align: center; padding: 30px 0px 30px 0px;'><hr><\/div>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "1637861584f177c330",
+    "tabs",
+    "163466708057c0c9e3",
+    "1631312331b6a3d472",
+    "1634671241cbd9d36f",
+    "1634592372a9505d0b",
+    "1634593603c423439a",
+    "163468562137244523",
+    "16348394442cf55cbd",
+    "16346848119cb239f8",
+    "163484014933e7b5c9"
+  ]
+}

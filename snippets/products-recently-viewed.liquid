@@ -1,0 +1,34 @@
+<!-- /snippets/products-recently-viewed.liquid -->
+{% comment %}
+    Renders list of recently viewed products in grid layout
+
+    Accepts:
+    - product: {Object} product (required)
+    - grid_strings: {String} contains a string of grid classes
+    - heading_title: {String} contains a string from section settings
+
+    Usage:
+    {% render 'products-recently-viewed', product: product, grid_strings: grid_strings, heading_title: section.settings.product_recently_heading %}
+{% endcomment %}
+
+{%- assign mobile_class = 'small--one-whole' -%}
+{%- if section.settings.product_recently_grid_mobile == '2' -%}
+  {%- assign mobile_class = 'small--one-half' -%}
+{%- endif -%}
+
+{%- assign grid_strings = 'large-up--one-quarter medium--one-quarter small--one-whole' -%}
+
+{%- assign animation_anchor = 'RecentlyViewed' -%}
+
+{%- capture swatch_translation -%}{{ 'general.swatches.color' | t }}{%- endcapture -%}
+{%- assign swatch_labels = swatch_translation | append: ',' | split: ',' -%}
+{%- assign unit_price_separator_string = 'general.accessibility.unit_price_separator' | t -%}
+{%- assign unit_price_separator = '<span aria-hidden="true">/</span><span class="visually-hidden">' | append: unit_price_separator_string | append: '&nbsp;</span>' -%}
+
+{%- assign limit = limit | default: 4 -%}
+
+<div class="recent__wrapper" id="RecentlyViewed-{{ section.id }}" data-recent-wrapper data-limit="{{ limit }}" data-minimum="{{ product_recently_minimum }}">
+  <div class="recent__content product-grid flickity-grid" id="recently-viewed-products-{{ section.id }}" style="display:none" data-slider data-group-cells="true" data-grid-large="4" data-recently-viewed-products>
+  </div>
+</div>
+

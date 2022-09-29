@@ -1,0 +1,26 @@
+{%- liquid
+  assign image_ratio = image_ratio | times: 100
+-%}
+<div class="product-grid-item {{ image_classes }}" data-grid-item>
+  <div {{ auto_height }}>
+    <a href="{{ collection_link }}" data-grid-link class="lazy-image" aria-label="{{ collection.title | strip_html | escape }}" style="padding-top:{{ image_ratio }}%; background-image:  url('{{ image | img_url: '1x1' }}');">
+      <div class="lazyload fade-in collection__image__top"
+        data-bgset="{% render 'bgset', image: image %}" 
+        role="img"
+        aria-label="{{ image.alt | default: collection.title | strip_html | escape }}"></div>
+        <div class="product-grid-item__slide" data-grid-slide></div>
+    </a>
+  </div>
+  <noscript>
+    <a href="{{ collection_link }}">
+      <img class="responsive-wide-image" src="{{ image | img_url: '360x' }}" alt="{{ image.alt | default: collection.title | strip_html | escape }}">
+    </a>
+  </noscript>
+  <div class="product__grid__info product__grid__info--{{ settings.product_grid_style }} {{ text_align | default: 'text-left' }}">
+    <a href="{{ collection_link }}">
+      <p class="product__grid__title">
+        {{ collection_title | split: ' | ' | first }}
+      </p>
+    </a>
+  </div>
+</div>

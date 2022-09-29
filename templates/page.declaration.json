@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": false,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "section--dark bg--invert"
+      }
+    },
+    "1632256381d84d51a5": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "",
+        "text": "<p>At Sandbox we take safety seriously.<\/p><p>As part of EU Regulation (EU) 2016\/425 the following resources are provided:<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9285\/6629\/files\/Sandbox_Classic_2_Snow_Declaration.pdf?v=1590610976\" title=\"Sandbox Classic 2.0 Snow Helmet\"><span style=\"text-decoration:underline\">Sandbox Classic 2.0 Snow Helmet<\/span><\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9285\/6629\/files\/Sandbox_Classic_Ace_Snow_Declaration.pdf?v=1590610975\" title=\"Sandbox Classic Snow ACE Helmet\"><span style=\"text-decoration:underline\">Sandbox Classic Snow ACE Helmet<\/span><\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9285\/6629\/files\/Sandbox_Classic_Apex_Snow_Declaration.pdf?v=1590610976\" title=\"Sandbox Classic Snow APEX Helmet\"><span style=\"text-decoration:underline\">Sandbox Classic Snow APEX Helmet<\/span><\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9285\/6629\/files\/Sandbox_Classic_2_Street_Declaration.pdf?v=1590610975\" title=\"Sandbox Classic 2.0 Street Helmet\"><span style=\"text-decoration:underline\">Sandbox Classic 2.0 Street Helmet<\/span><\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9285\/6629\/files\/Sandbox_Classic_2_Low_Rider_Declaration.pdf?v=1590610975\" title=\"Sandbox Classic 2.0 Low Rider\"><span style=\"text-decoration:underline\">Sandbox Classic 2.0 Low Rider Helmet<\/span><\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9285\/6629\/files\/Sandbox_Legend_Snow_Declaration.pdf?v=1590610977\" title=\"Sandbox Legend Snow Helmet\"><span style=\"text-decoration:underline\">Sandbox Legend Snow Helmet<\/span><\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9285\/6629\/files\/Sandbox_Legend_Snow_Asia_Fit_Declaration.pdf?v=1590610976\" title=\"Sandbox Legend Snow Asia Fit Helmet\"><span style=\"text-decoration:underline\">Sandbox Legend Snow Asia Fit Helmet<\/span><\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9285\/6629\/files\/Sandbox_Legend_Ace_Snow_Declaration.pdf?v=1590610975\" title=\"Sandbox Legend Snow ACE Helmet\"><span style=\"text-decoration:underline\">Sandbox Legend Snow ACE Helmet<\/span><\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9285\/6629\/files\/Sandbox_Legend_Apex_Snow_Declaration.pdf?v=1590610976\" title=\"Sandbox Legend Snow APEX Helmet\"><span style=\"text-decoration:underline\">Sandbox Legend Snow APEX Helmet<\/span><\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9285\/6629\/files\/Sandbox_Legend_Low_Rider_Declaration.pdf?v=1590610977\" title=\"Sandbox Legend Low Rider Helmet\"><span style=\"text-decoration:underline\">Sandbox Legend Low Rider Helmet<\/span><\/a><\/p><p>For additional information please email <a href=\"mailto:info@sandboxland.com\" title=\"Email Sandbox Helmets\">info@sandboxland.com<\/a><\/p>",
+        "textarea": "",
+        "list": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1632256381d84d51a5"
+  ]
+}

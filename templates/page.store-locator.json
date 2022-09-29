@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": false,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "section--dark bg--invert"
+      }
+    },
+    "163227095420ddc2a7": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style=\"margin: 30px auto;text-align: center;\" id=\"zenlocator-map-m42c2rwe\"><\/div><script type=\"text\/javascript\" src=\"https:\/\/js.zenlocator.com\/yva4675u.min.js\" async><\/script>",
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163227095420ddc2a7"
+  ]
+}

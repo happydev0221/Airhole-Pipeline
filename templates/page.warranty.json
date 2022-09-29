@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "16322509469381618b": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "Sandbox Warranty",
+        "title": "About Our Policy",
+        "text": "<p>Sandbox Helmets warrants its products to be free of manufacturing defects for one (1) year from the date of purchase. Our commitment to you is that we want you to be riding as much as possible and you can't do that if you're not protected! If your gear has failed you then we will do our best to get you back out as quickly as possible. Check out our full guidelines below and make sure you have familiarized yourself with them before starting a warranty claim.<\/p>",
+        "textarea": "",
+        "list": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--accent"
+      }
+    },
+    "1632250984fa06fdc9": {
+      "type": "section-columns",
+      "blocks": {
+        "1632250984fa06fdc9-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Step 1",
+            "text": "<p>Please read the following questions. If you answer yes to all of these then proceed to Step 2.<\/p>",
+            "list": "- Was the product purchased within the last 12 months?\n- Was the product purchased from an authorized Sandbox dealer or direct from our online store?\n- Do you have a copy of your receipt, order confirmation, sales receipt or other proof of purchase?\n- Does the damage or fault appear to be the result of or attributable to defective materials or poor workmanship?\n\n<p>If you answered yes to all of the above questions proceed to Step 2. If you didn't then please Email Us and we will see what we can do to help.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1632250984fa06fdc9-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Step 2",
+            "text": "<p>If your product was purchased from an authorized Sandbox dealer then please return your product to them to begin a warranty claim.<\/p><p>If your product was purchased directly from our online store then please <a href=\"mailto:info@sandboxhelmets.com\">Email Us<\/a> with the following information.<\/p>",
+            "list": "- Details of the product you are claiming (model, name, color etc.)\n- Original date of purchase (please attach a copy of the purchase receipt, invoice or sales receipt)\n- Description of the fault or damage (provide as much information as possible)\n- How did you first notice the fault or damage?\n- Images of the fault or damage. The better the images, the faster we can process your claim!",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1632250984fa06fdc9-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Step 3",
+            "text": "<p>Wait for a response from our customer service team.<\/p><p>We aim to respond to all warranty claims as quickly as possible but during busy periods response times may be slower. Our customer service advisors operate 9-5 PST Mon-Fri (excluding public holidays). Emails received outside of these hours will be responded to during the next available working hours.<\/p><p>If for any reason we require more information we will let you know.<\/p><p>Not all warranty claims can be approved by email. Sometimes we will require the product to be returned for an inspection. If this is the case we will provide full instructions by email.<\/p>",
+            "list": "",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "1632250984fa06fdc9-0",
+        "1632250984fa06fdc9-1",
+        "1632250984fa06fdc9-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_title": "text-center",
+        "bg": "section bg--neutral",
+        "align_text": "text-left",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    },
+    "163225112588a9d3dd": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "Coverage",
+        "title": "What is covered?",
+        "text": "<p>Our warranty covers, but is not limited to, the following faults and damage.<\/p>",
+        "textarea": "",
+        "list": "- Any significant manufacturing defect\n- Any significant defect in workmanship\n- Any significant defect in materials or material quality",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--accent"
+      }
+    },
+    "163225320875044f32": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "What is not covered?",
+        "text": "<p>Our warranty does not cover, but is not limited to, the following faults and damage.<\/p>",
+        "textarea": "",
+        "list": "- Damage caused by misuse, abuse or neglect\n- Normal wear and tear expected with a piece of sports clothing\n- Damage caused by solvents, adhesives, bleaches or other corrosive or damaging substances\n- Damage caused by modifications made to the helmet",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--accent"
+      }
+    },
+    "1632251261a90a57f1": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "Warranty Limitations",
+        "text": "<p>The Sandbox Helmets warranty is subject to the following limitations in addition to any imposed by virtue of applicable law.<\/p>",
+        "textarea": "",
+        "list": "o- The warranty applies only to products purchased from an authorized Sandbox dealer or direct from the sandbox Helmets online store. If you are unsure if a retailer is an authorized Sandbox dealer please Email Us for confirmation.\n\no- The warranty applies to the original purchaser only and is non-transferable.\n\no- All products must receive prior approval from Sandbox Helmets before being returned. Products returned without written approval will not be processed and will be returned at the customer's expense.\n\no- Sandbox Helmets recommends using a tracked and insured service for returning your product and accepts no responsibility for damage or loss of items during transit.\n\no- Return shipping charges are the sole responsibility of the customer. Return shipping to the customer will be covered by Sandbox Helmets.\n\no- All original shipping charges are non-refundable and will not be included in any credit or refund provided to the customer.\n\no- The warranty is void if any modification, alteration or change has been made to a product that has not been carried out by Sandbox Helmets.\n\no- Products that are repaired or replaced under warranty are covered for the remainder of the original warranty period. For example, products repaired or replaced 11 months after the purchase date will continue to be covered under warranty for 1 month.\n\no- Items repaired under warranty are subject to available parts. Sandbox Helmets will do their best to match colors or styles but we cannot guarantee it.\n\no- Any invoice, receipt or proof of purchase must clearly state the authorized Sandbox dealer through which it was purchased and the date of the purchase.\n\no- Sandbox products are not covered by any verbal warranty.\n\no- Authorized Sandbox dealers are not authorized to approve or reject warranties. All warranties in North America may only be approved by Sandbox Helmets directly.\n\no- Products purchased on eBay are not subject to Sandbox Helmets warranty.\n\no- Sandbox Helmets reserves the right to repair any item before replacing or crediting.",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    },
+    "16322514683aaa35d9": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "Liability Waiver",
+        "text": "<p>Skiing, snowboarding, surfing, sailing, cycling, skating and other outdoor sports can be dangerous. Sandbox Helmets accepts no liability in the event of any injury or death arising from an activity associated with the use of an Sandbox Helmets product.<\/p>",
+        "textarea": "",
+        "list": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--accent"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-center",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "16322509469381618b",
+    "1632250984fa06fdc9",
+    "163225112588a9d3dd",
+    "163225320875044f32",
+    "1632251261a90a57f1",
+    "16322514683aaa35d9",
+    "main"
+  ]
+}

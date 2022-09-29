@@ -1,0 +1,30 @@
+<!-- /sections/section-html.liquid -->
+<div class="section-html{% unless section.settings.full_width %} wrapper{% endunless %}">
+  {{ section.settings.html }}
+</div>
+
+{% schema %}
+{
+  "name": "Custom HTML",
+  "settings": [
+    {
+      "type": "liquid",
+      "id": "html",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 30px 30px 30px 30px;'><hr></div>"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Custom HTML"
+    }
+  ]
+}
+{% endschema %}

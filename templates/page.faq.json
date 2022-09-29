@@ -1,0 +1,332 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "FAQ",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": false,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--white",
+        "bg": "section--dark bg--invert"
+      }
+    },
+    "faq": {
+      "type": "section-faq",
+      "blocks": {
+        "faq-0": {
+          "type": "text",
+          "settings": {
+            "title": "Online",
+            "content": "<p>Airhole Facemasks offers online shopping in a number of global regions. Click on the flag\/globe icon in the top right corner of any page to select your country. If your country is not listed then please email us at <a href=\"mailto:info@airholefacemasks.com\" title=\"mailto:info@airholefacemasks.com\">info@airholefacemasks.com<\/a> and we will do our best to help you out.<\/p><p><\/p><p>For location specific shipping and returns information please check out our country specific FAQ by selecting your location from the country dropdown menu in the top right corner of any page.<\/p>"
+          }
+        },
+        "faq-1": {
+          "type": "text",
+          "settings": {
+            "title": "In Person",
+            "content": "<p>Airhole Facemasks has authorized retailers around the world. To find your nearest authorized dealer where you can check out all of our boards and get hands on advice, make sure you take a look at our <a href=\"https:\/\/can.endeavorsnowboards.com\/pages\/store-locator\" title=\"Store Locator\">Store Locator<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-0",
+        "faq-1"
+      ],
+      "settings": {
+        "title": "Where To Buy",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--accent"
+      }
+    },
+    "1631582466a5e8adf0": {
+      "type": "section-faq",
+      "blocks": {
+        "1631582466a5e8adf0-0": {
+          "type": "text",
+          "settings": {
+            "title": "How will my order be shipped?",
+            "content": "<p>Our shipping methods vary by country and the size of your order will determine the carrier that we use. For smaller orders we try to use local postal services such as Canada Post, UPS or Royal Mail. For high value or larger orders try to use well known parcel carriers such as FedEx, UPS, Parcel Force, DHL or others.<\/p><p><\/p><p>For specific delivery information please check out our country specific FAQ pages by selecting your location from the dropdown in the top right corner of any page.<\/p>"
+          }
+        },
+        "1631582466a5e8adf0-1": {
+          "type": "text",
+          "settings": {
+            "title": "How long does delivery take?",
+            "content": "<p>Shipping times vary by country but we aim to deliver most orders within 1-5 days from the date of despatch. If you require your order faster, please select an express shipping option at the checkout. Note that express shipping is not available in all regions.<\/p><p><\/p><p>Orders are only processed Monday-Friday and will not be process on weekends or public holidays. We aim to process all orders within 48 hours. Order placed before 12pm local time will not be processed that day.<\/p>"
+          }
+        },
+        "f2401760-2f27-444a-9e99-ff3022c8e26a": {
+          "type": "text",
+          "settings": {
+            "title": "I would like to change\/cancel my order",
+            "content": "<p>Unfortunately we are not able to accommodate changes or cancellations of orders once they have been placed.<\/p><p>We would strongly recommend double checking your order before placing it to ensure that no mistakes have been made.<\/p>"
+          }
+        },
+        "1631582466a5e8adf0-2": {
+          "type": "text",
+          "settings": {
+            "title": "Can I collect my order?",
+            "content": "<p>Unfortunately we are currently unable to accept collections from our warehouses.<\/p>"
+          }
+        },
+        "ba6f2f73-039f-46c3-8be4-188d4e200337": {
+          "type": "text",
+          "settings": {
+            "title": "What if I'm not at home when you deliver?",
+            "content": "<p>If you are unavailable at your address when your order is delivered our couriers will either leave the parcel in a safe space (if this is possible) or leave you with a delivery card. Follow the instructions on the card to arrange a pickup or future delivery.<\/p><p><\/p><p>We can ship to any address so if you won't be home for a delivery we would recommend getting your order shipped to a work address, friend or family member.<\/p>"
+          }
+        },
+        "056a9c31-a78b-43dc-96d5-d8828e5dd17e": {
+          "type": "text",
+          "settings": {
+            "title": "How will my order be packaged?",
+            "content": "<p>We aim to use the smallest amount of packaging possible to reduce shipping costs and cut down on waste. Where possible your order will be shipped in an industry standard polybag. Larger orders may be shipped in cardboard boxes.<\/p>"
+          }
+        },
+        "75f88ff2-628c-4905-90e0-d79026294bd5": {
+          "type": "text",
+          "settings": {
+            "title": "Can I track my order?",
+            "content": "<p>Yes, we ship all orders using trackable services. Once your order has been despatched you will receive your tracking number by email.<\/p>"
+          }
+        },
+        "7d10ea8c-13e8-4a84-83a6-3e0b10ba6d7b": {
+          "type": "text",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "content": "<p>We can ship to most international destinations. Just select your country from the dropdown menu in the top right corner of any web page.<\/p><p><\/p><p>If you cannot find your country in the dropdown menu then please <a href=\"mailto:info@airholefacemasks.com\" title=\"mailto:info@airholefacemasks.com\">email us<\/a> and we will see what we can do for you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1631582466a5e8adf0-0",
+        "1631582466a5e8adf0-1",
+        "f2401760-2f27-444a-9e99-ff3022c8e26a",
+        "1631582466a5e8adf0-2",
+        "ba6f2f73-039f-46c3-8be4-188d4e200337",
+        "056a9c31-a78b-43dc-96d5-d8828e5dd17e",
+        "75f88ff2-628c-4905-90e0-d79026294bd5",
+        "7d10ea8c-13e8-4a84-83a6-3e0b10ba6d7b"
+      ],
+      "settings": {
+        "title": "Shipping & Delivery",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    },
+    "16315827321df5befa": {
+      "type": "section-faq",
+      "blocks": {
+        "16315827321df5befa-0": {
+          "type": "text",
+          "settings": {
+            "title": "What is your returns policy?",
+            "content": "<p>We accept returns on products up to 28 days after you have received them. All items returned must be in their original condition with their original packaging in order to receive a refund.<\/p><p><\/p><p>All return shipping costs must be paid for by the customer and original shipping charges are not included in any refunds provided.<\/p><p><\/p><p>To start a return, please visit our <a href=\"https:\/\/can.airholefacemasks.com\/pages\/returns\" title=\"Returns\">Returns Page<\/a>.<\/p>"
+          }
+        },
+        "16315827321df5befa-1": {
+          "type": "text",
+          "settings": {
+            "title": "How long will a refund take?",
+            "content": "<p>As soon as we have received your return we will process a refund minus any original shipping charges. Refunds are processed the same day but depending on your card issuer can take a few days to appear on any statements.<\/p><p><\/p><p>We recommend using a trackable service so that you can see when we have received your return. We also recommend choosing a service that provides an adequate level of insurance in the event of any loss or damage in transit.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16315827321df5befa-0",
+        "16315827321df5befa-1"
+      ],
+      "settings": {
+        "title": "Returns",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--accent"
+      }
+    },
+    "1631582846b3e516a2": {
+      "type": "section-faq",
+      "blocks": {
+        "1631582846b3e516a2-1": {
+          "type": "text",
+          "settings": {
+            "title": "What is covered under warranty?",
+            "content": "<p>Airhole Facemasks warrants all products sold to be free of defects in materials or workmanship from one (1) year from the date of purchase.<\/p><p><\/p><p>Damage caused my neglect or misuse is not covered under warranty.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1631582846b3e516a2-1"
+      ],
+      "settings": {
+        "title": "Warranty",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    },
+    "163431707286ff171a": {
+      "type": "section-faq",
+      "blocks": {
+        "163431707286ff171a-0": {
+          "type": "text",
+          "settings": {
+            "title": "How do you handle my privacy?",
+            "content": "<p>We consider your privacy of the utmost importance.<\/p><p><\/p><p>You can view our full privacy policy <a href=\"https:\/\/can.airholefacemasks.com\/pages\/privacy\" title=\"Privacy\">HERE<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163431707286ff171a-0"
+      ],
+      "settings": {
+        "title": "Privacy & Security",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--accent"
+      }
+    },
+    "163158293974659428": {
+      "type": "section-faq",
+      "blocks": {
+        "163158293974659428-0": {
+          "type": "text",
+          "settings": {
+            "title": "Can I get some free stickers?",
+            "content": "<p>We love it when our fans want to represent us! To get a pack of free Airhole Facemasks stickers please send a self addressed envelope to the address below. Please make sure you include enough return postage so they'll get back to you. We recommend using envelopes 9\" x 7\" to get our best stickers!<\/p><p><\/p><p>Airhole Sticker Request<br\/>1737 West 3rd Ave Unit 110<br\/>Vancouver, BC<br\/>V6J 1K7<br\/>CANADA<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163158293974659428-0"
+      ],
+      "settings": {
+        "title": "Free Stickers",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    },
+    "163158297783f2c18d": {
+      "type": "section-faq",
+      "blocks": {
+        "163158297783f2c18d-0": {
+          "type": "text",
+          "settings": {
+            "title": "How can I contact you?",
+            "content": "<p>To get in touch with us please <a href=\"mailto:info@airholefacemasks.com\" title=\"mailto:info@airholefacemasks.com\">Email Us.<\/a><\/p><p><\/p><p>We aim to respond to all email enquires within 24 hours but during busy periods responses may take longer. Our customer service advisors operate 9-5 PST Mon-Fri (excluding public holidays) and are currently available in English only. Enquiries in other languages may be passed over to our international distributors. Emails received outside of our working hours will be responded to during the next available working hours.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163158297783f2c18d-0"
+      ],
+      "settings": {
+        "title": "Getting In Touch",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--accent"
+      }
+    },
+    "1631583086c287ca9a": {
+      "type": "section-contact",
+      "blocks": {
+        "1631583086c287ca9a-0": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "1631583086c287ca9a-1": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "1d09b11e-a64f-4f32-8da1-f41cdf3a1244": {
+          "type": "text",
+          "settings": {
+            "title": "Order #: (if applicable)"
+          }
+        },
+        "1631583086c287ca9a-2": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        }
+      },
+      "block_order": [
+        "1631583086c287ca9a-0",
+        "1631583086c287ca9a-1",
+        "1d09b11e-a64f-4f32-8da1-f41cdf3a1244",
+        "1631583086c287ca9a-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "faq",
+    "1631582466a5e8adf0",
+    "16315827321df5befa",
+    "1631582846b3e516a2",
+    "163431707286ff171a",
+    "163158293974659428",
+    "163158297783f2c18d",
+    "1631583086c287ca9a"
+  ]
+}

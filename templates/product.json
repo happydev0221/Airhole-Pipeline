@@ -1,0 +1,265 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "71bdce5a-a56f-4645-9dd7-8cefc2c74f76": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": false,
+            "show_rating_count": false
+          }
+        },
+        "87a16684-5a72-4707-befa-f83991ba9f48": {
+          "type": "text",
+          "settings": {
+            "title": "<p><strong>{{ product.metafields.descriptors.subtitle.value }}<\/strong><\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "button",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": "sizing-chart"
+          }
+        }
+      },
+      "block_order": [
+        "71bdce5a-a56f-4645-9dd7-8cefc2c74f76",
+        "title",
+        "87a16684-5a72-4707-befa-f83991ba9f48",
+        "form"
+      ],
+      "settings": {
+        "image_width": "half",
+        "align": "left",
+        "product_breadcrumbs": true,
+        "enable_video_looping": true,
+        "zoom_enable": true
+      }
+    },
+    "16342276839122ab9e": {
+      "type": "section-custom-content",
+      "blocks": {
+        "213abdbb-9fa2-47c9-90f0-4263c92d0050": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "product_description": true,
+            "use_fabric": false,
+            "textarea": "",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "ee6e4759-53d9-4233-b541-00ec498d8a41": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "{{ product.metafields.global.video_url.value }}",
+            "object_position": "center-center",
+            "image": "shopify:\/\/shop_images\/mood_80aacc82-17db-4380-b331-3c2387c0a3e4.jpg",
+            "bg_position": "center-center",
+            "video_link": "",
+            "popup_text": "",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "213abdbb-9fa2-47c9-90f0-4263c92d0050",
+        "ee6e4759-53d9-4233-b541-00ec498d8a41"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "163434281281ba8c65": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1e3f2059-5a4d-46d0-89c7-05a8ebd9a381": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.global.fabric_image.value }}",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "dbf86552-13a1-4fe4-81e9-752970942cf8": {
+          "type": "text",
+          "settings": {
+            "kicker": "{{ product.metafields.global.fabric.value }}",
+            "title": "",
+            "text": "",
+            "product_description": false,
+            "use_fabric": true,
+            "textarea": "",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1e3f2059-5a4d-46d0-89c7-05a8ebd9a381",
+        "dbf86552-13a1-4fe4-81e9-752970942cf8"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1634237545ded0b631": {
+      "type": "section-custom-content",
+      "blocks": {
+        "3340cead-eb3a-4bd2-92cf-c1e5bdf7a605": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>The Airhole is standard on all of our masks and is designed to allow breath to escape freely, avoiding the build up of condensation to keep you dry, warm and goggles fog free. Stay out there longer.<\/p>",
+            "product_description": false,
+            "use_fabric": false,
+            "textarea": "<table style=\"width: auto\">\n<tbody>\n<tr>\n<td align=\"center\" class=\"text-center\">\n<p><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/t\/16\/assets\/icon-breathe-free.svg?v=16893254061138156579\" alt=\"Breathe Free\" style=\"width: 40px;\" class=\"text-center\" valign=\"center\" align=\"center\" sizes=\"40px\"><\/p>\n<p class=\"uppercase\">Breathe<br>Free<\/p>\n<\/td>\n\n<td align=\"center\" class=\"text-center\">\n<p><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/t\/16\/assets\/icon-goggle.svg?v=17722496165355216097\" alt=\"Goggle Fog\" style=\"width: 40px;\" class=\"blur-up lazyautosizes lazyloaded\" valign=\"center\" align=\"center\" sizes=\"40px\"><\/p>\n<p class=\"uppercase\">Prevent<br>Goggle Fog<\/p>\n<\/td>\n\n<td align=\"center\" class=\"text-center\">\n<p><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/t\/16\/assets\/icon-dry.svg?v=11015505680471758866\" alt=\"Dry Face\" style=\"width: 40px;\" class=\"blur-up lazyautosizes lazyloaded\" valign=\"center\" align=\"center\" sizes=\"40px\"><\/p>\n<p class=\"uppercase\">Keep your<br>face dry<\/p>\n<\/td>\n<\/tr>\n\n<\/tbody>\n<\/table>",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--white",
+            "bg_color": "#000000"
+          }
+        },
+        "318a3e06-ab1d-4aa2-b27f-7ea623d026b8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-page-airhole_1000x_4d52f94b-9665-4de3-89bb-5059cf734463.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "3340cead-eb3a-4bd2-92cf-c1e5bdf7a605",
+        "318a3e06-ab1d-4aa2-b27f-7ea623d026b8"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1634862578600cf17c": {
+      "type": "apps",
+      "blocks": {
+        "d0cff4cb-48f2-48df-be64-4f1ceea43f31": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d0cff4cb-48f2-48df-be64-4f1ceea43f31"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "section bg--accent"
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "You might also like",
+        "bg": "section bg--neutral",
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16342276839122ab9e",
+    "163434281281ba8c65",
+    "1634237545ded0b631",
+    "1634862578600cf17c",
+    "reviews",
+    "related"
+  ]
+}

@@ -1,0 +1,231 @@
+{%- for block in section.blocks -%}
+  {%- assign featured_collection = collections[block.settings.collection] -%}
+  {%- assign featured_collection_title = block.settings.title | default: featured_collection.title | default: 'Collection' -%}
+
+  {%- capture tabs_navigation -%}
+    {{ tabs_navigation }}
+    <li class="tab-link tab-link-{{ forloop.index0 }}"
+      data-focus-element
+      data-tab="{{ forloop.index0 }}"
+      data-block-id="{{ block.id }}"
+      tabindex="0"
+      {{ block.shopify_attributes }}>
+      <span>{{ featured_collection_title }}</span>
+    </li>
+  {%- endcapture -%}
+
+  {%- capture tabs -%}
+    {{ tabs }}
+    <div class="tab-content tab-content-{{ forloop.index0 }}">
+      <div class="flickity-grid" data-slider data-grid-large="{{ section.settings.grid }}">
+        <!-- /snippets/product-grid-item.liquid -->
+        {% for product in featured_collection.products limit: section.settings.limit %}
+          {% assign has_color = false %}
+          {% assign index = 0 %}
+          {% for option in product.options %}
+            {% assign option_downcase = option | downcase %}
+            {% if option_downcase == 'color' or option_downcase == 'colour' %}
+              {% assign has_color = true %}
+              {% assign index = forloop.index0 %}
+            {% endif %}
+          {% endfor %}
+          {% if settings.split_color_variants and has_color %}
+        	{% assign colors = '' %}
+                	{% for variant in product.variants %}
+                	  {% assign color = variant.options[index] %}
+                	  {% assign color_handle = 'Color_' | append: color | handle %}
+                	  {% if colors contains color %}
+                		{% continue %}
+                	  {% endif %}
+                	  {% assign colors = colors | append: '-' | append: color %}
+        			  <div class="product-grid-slide">
+                	  {% render 'product-variant-item' with
+                        product: product,
+                        color: color,
+                		color_index: index,
+                        swatches_enabled: show_swatches,
+                        aspect_ratio: aspect_ratio
+                      %}
+			        </div>
+                	{% endfor %}
+          {% else %}
+          <div class="product-grid-slide">
+            {% render 'product-grid-item', product: product %}
+          </div>
+          {% endif %}
+        {% else %}
+          {% render 'onboarding-product-grid-item', limit: section.settings.limit, wrap: 'product-grid-slide' %}
+        {% endfor %}
+      </div>
+    </div>
+  {%- endcapture -%}
+{%- endfor -%}
+
+{%- capture collections_slider -%}
+  <div class="flickity-grid" data-slider data-grid-large="{{ section.settings.grid }}">
+    {% for block in section.blocks %}
+      {%- assign collection = collections[block.settings.collection] -%}
+      {%- assign collection_title = block.settings.title | default: collection.title | default: 'Collection' -%}
+      {%- assign collection_link = collection.url -%}
+      <div class="product-grid-slide">
+        {% render 'collection-grid-item', image: block.settings.image, collection: collection, image_ratio: section.settings.aspect_ratio, collection_title: collection_title, collection_link: collection_link %}
+      </div>
+    {% endfor %}
+  </div>
+{%- endcapture -%}
+
+
+<div class="homepage-collection-tabs {{ section.settings.bg }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="collection-tabs">
+  <div class="wrapper collection-tabs" data-tabs-holder>
+
+    {% if section.settings.title != blank %}
+      <h2 class="home__subtitle {{ section.settings.align_title }}">{{ section.settings.title | escape }}</h2>
+    {% endif %}
+    {% unless section.settings.collections_slider %}
+      <div class="tab__scroll">
+        {% unless section.blocks.size == 1 %}
+        <ul class="tabs tabs--center tabs--pill" data-scrollbar data-scrollbar-slider>
+          {{ tabs_navigation }}
+        </ul>
+        {% endunless %}
+
+        <button type="button" class="tabs__arrow tabs__arrow--prev tabs-collections__arrow tabs-collections__arrow--prev is-hidden" data-scrollbar-arrow-prev>
+          <span class="visually-hidden">{{ 'general.accessibility.see_all' | t }}</span>
+        </button>
+
+        <button type="button" class="tabs__arrow tabs__arrow--next tabs-collections__arrow tabs-collections__arrow--next is-hidden" data-scrollbar-arrow-next>
+          <span class="visually-hidden">{{ 'general.accessibility.see_all' | t }}</span>
+        </button>
+      </div>
+    {% endunless %}
+
+    {% if section.settings.collections_slider %}
+      {{ collections_slider }}
+    {% else %}
+      {{ tabs }}
+    {% endif %}
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Featured collection",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Featured Collections"
+    },
+    {
+      "type": "select",
+      "id": "align_title",
+      "label": "Text alignment",
+      "default": "text-center",
+      "options": [
+        {
+          "value": "text-left",
+          "label": "Left"
+        },
+        {
+          "value": "text-center",
+          "label": "Centered"
+        }
+      ]
+    },
+    {
+      "type":    "range",
+      "id":      "grid",
+      "min":     1,
+      "max":     6,
+      "step":    1,
+      "default": 3,
+      "label":   "Products per row"
+    },
+    {
+      "type":    "range",
+      "id":      "limit",
+      "min":     1,
+      "max":     20,
+      "step":    1,
+      "default": 6,
+      "label":   "Product limit",
+      "info": "Loading a large number of products can affect page speed"
+    },
+    {
+      "type": "select",
+      "id": "bg",
+      "label": "Background color",
+      "default": "section bg--neutral",
+      "options": [
+        { "value": "section bg--neutral", "label": "Default"},
+        { "value": "section bg--accent", "label": "Light"},
+        { "value": "section--dark bg--invert", "label": "Dark"},
+        { "value": "section--dark bg--invert--accent", "label": "Dark accent"}
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "collections_slider",
+      "label": "Make slider of collections instead"
+    },
+    {
+      "type": "range",
+      "id": "aspect_ratio",
+      "min": 0.5,
+      "max": 1.5,
+      "step": 0.1,
+      "unit": ":1",
+      "label": "Image scaling ratio",
+      "info": "Wide to tall (For collections slider only)",
+      "default": 0.7
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Tab collections",
+      "settings": [
+        {
+          "label": "Image",
+          "id": "image",
+          "type": "image_picker"
+        },
+        {
+          "label": "Collection",
+          "id": "collection",
+          "type": "collection"
+        },
+        {
+          "label": "Tab heading",
+          "id": "title",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Collection",
+      "name": "Tab collections",
+      "blocks": [
+        {
+          "type": "collection",
+          "settings": {
+            "title": "First collection"
+          }
+        },
+        {
+          "type": "collection",
+          "settings": {
+            "title": "Second collection"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

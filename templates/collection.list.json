@@ -1,0 +1,98 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-left",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": false,
+        "show_image": true,
+        "bg_position": "left-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 25,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": false,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.2,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "disabled": true,
+      "blocks": {
+        "d2dbcf91-170f-4bd5-a80d-dd730bda2688": {
+          "type": "filters",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d2dbcf91-170f-4bd5-a80d-dd730bda2688"
+      ],
+      "settings": {
+        "grid_setting_large": 4,
+        "grid_setting_small": 2,
+        "product_limit": 36,
+        "enable_layout_toggle": false,
+        "collection_sorting": true,
+        "hide_sidebar": false
+      }
+    },
+    "1634424248765fd7fb": {
+      "type": "section-accordion",
+      "blocks": {
+        "f5cc21d7-3908-48cf-a007-a072dc405e58": {
+          "type": "button_group",
+          "settings": {
+            "button_group": "<p>BY CATEGORY<\/p><p><a href=\"\/collections\/daily\" title=\"Daily Masks\">Daily Masks<\/a><\/p><p><a href=\"\/collections\/airtubes\" title=\"Airtubes\">Airtubes<\/a><\/p><p><a href=\"\/collections\/facemasks\" title=\"Facemasks\">Facemasks<\/a><\/p><p><a href=\"\/collections\/balaclavas\" title=\"Balaclavas\">Balaclavas<\/a><\/p><p><a href=\"\/collections\/airhoods\" title=\"Airhoods\">Airhoods<\/a><\/p><p><a href=\"\/collections\/tech-hats\" title=\"Tech Hats\">Tech Hats<\/a><\/p><p><a href=\"\/collections\/junior\" title=\"Junior\">Youth<\/a><\/p>"
+          }
+        },
+        "17edfa79-c2f9-4eae-a290-532febbab1c7": {
+          "type": "button_group",
+          "settings": {
+            "button_group": "<p>BY FABRIC<\/p><p><a href=\"\/collections\/drylite\" title=\"Drylite\">Drylite<\/a><\/p><p><a href=\"\/collections\/wafflefleece\" title=\"Waffle Fleece\">Wafflefleece<\/a><\/p><p><a href=\"\/collections\/merino\" title=\"Merino\">Merino<\/a><\/p><p><a href=\"\/collections\/milkfleece\" title=\"Milk Fleece\">Milk Fleece<\/a><\/p><p><a href=\"\/collections\/drytech\" title=\"Drytech\">Drytech Thermal Fleece<\/a><\/p><p><a href=\"\/collections\/polar\" title=\"Polar\">Polar Fleece<\/a><\/p><p><a href=\"\/collections\/softshell\" title=\"10K Softshell\">10k Softshell<\/a><\/p><p><a href=\"\/collections\/10k-hardshell\" title=\"10K Hardshell\">10k Hardshell<\/a><\/p><p><a href=\"\/collections\/microfleece\" title=\"Microfleece\">Microfleece<\/a><\/p><p><a href=\"\/collections\/sherpa\" title=\"Sherpa\">Sherpa<\/a><\/p><p><a href=\"\/collections\/insulated\" title=\"Insulated\">Insulated<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f5cc21d7-3908-48cf-a007-a072dc405e58",
+        "17edfa79-c2f9-4eae-a290-532febbab1c7"
+      ],
+      "settings": {
+        "title": "Filter By",
+        "width": "wrapper--full",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    },
+    "1634420105e3202f4a": {
+      "type": "section-collection-list",
+      "settings": {
+        "align_title": "text-center",
+        "grid": 4,
+        "limit": 15,
+        "bg": "section bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "1634424248765fd7fb",
+    "1634420105e3202f4a"
+  ]
+}

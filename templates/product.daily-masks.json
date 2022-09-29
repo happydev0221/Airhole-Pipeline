@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": true
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "button",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form"
+      ],
+      "settings": {
+        "image_width": "half",
+        "align": "left",
+        "product_breadcrumbs": true,
+        "enable_video_looping": true,
+        "zoom_enable": true
+      }
+    },
+    "163595727529d6b5f9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "b7c553f1-9ee6-40ab-83d2-b26b863b3a27": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "product_description": true,
+            "use_fabric": false,
+            "textarea": "",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "4ebcd8cb-0493-4f5f-b293-0ea77d03b45a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/daily-universal-image.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "b7c553f1-9ee6-40ab-83d2-b26b863b3a27",
+        "4ebcd8cb-0493-4f5f-b293-0ea77d03b45a"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "section bg--accent"
+      }
+    },
+    "16348625087844fe11": {
+      "type": "apps",
+      "blocks": {
+        "6531ed95-71a2-49b5-9225-1a01750ed317": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "6531ed95-71a2-49b5-9225-1a01750ed317"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "You might also like",
+        "bg": "section bg--neutral",
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163595727529d6b5f9",
+    "reviews",
+    "16348625087844fe11",
+    "related"
+  ]
+}

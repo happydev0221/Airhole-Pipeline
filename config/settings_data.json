@@ -1,0 +1,729 @@
+{
+  "current": {
+    "color_announcement_bg": "#d7212a",
+    "color_announcement_text": "#ffffff",
+    "color_header_bg": "#ffffff",
+    "color_header_text": "#000000",
+    "color_nav_border": "#e4e4e4",
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_primary": "#000000",
+    "color_secondary": "#d7212a",
+    "color_bg_light": "#f2f2f2",
+    "color_bg_inverse": "#000000",
+    "color_text_inverse": "#ffffff",
+    "color_primary_inverse": "#fcd8c8",
+    "color_secondary_inverse": "#d7212a",
+    "color_bg_accent_inverse": "#222324",
+    "product_background_color": "#ffffff",
+    "color_footer_bg": "#ffffff",
+    "color_footer_text": "#000000",
+    "high_contrast": false,
+    "type_heading_font": "roboto_condensed_n7",
+    "type_heading_size": 100,
+    "font_title_capitalize": true,
+    "type_accent_font": "rajdhani_n3",
+    "type_accent_size": 115,
+    "type_base_font": "rajdhani_n3",
+    "type_body_size": 100,
+    "button_radius": 0,
+    "parallax_enable": false,
+    "collection_text_alignment": "text-left",
+    "product_grid_style": "under",
+    "image_hover_enable": false,
+    "split_color_variants": true,
+    "product_grid_image": "crop",
+    "product_grid_aspect_ratio": 1,
+    "swatches_enable": true,
+    "swatches_collection_enable": false,
+    "badge_sale": true,
+    "badge_sale_discount": true,
+    "badge_sale_type": "percentage",
+    "badge_sellout": false,
+    "badge_custom": true,
+    "color_badge": "#d7182a",
+    "color_badge_text": "#ffffff",
+    "cart_style": "drawer",
+    "show_free_shipping_message": false,
+    "free_shipping_limit": "50",
+    "social_facebook_link": "https:\/\/www.facebook.com\/airholefacemasks",
+    "social_instagram_link": "https:\/\/www.instagram.com\/airholefacemasks\/",
+    "social_vimeo_link": "https:\/\/vimeo.com\/airhole",
+    "favicon": "shopify:\/\/shop_images\/Airhole-Favicon_f0f6715c-131f-40f8-95c0-36b4c6c7eef1.jpg",
+    "fabric_text_drylite": "A lightweight, perforated, quick dry fabric that acts like a second skin. Made from a blend of polyester and lycra, Drylite has incredible moisture wicking properties and a UPF 50 finish for 98% UV protection so you can stay cool, dry an protected in spring conditions or when the sun is shining.",
+    "fabric_icon_drylite": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/1_Drylite.svg?v=1635444241",
+    "fabric_subtext_drylite": "Ideal for 0 to 5°C+ \/ 32 to 41°F+",
+    "fabric_text_waffle_fleece": "A lightweight, technical gridded fleece fabric that is moisture wicking and allows air to flow freely to keep you warm and dry. We also apply a DWR (Durable Water Repellent) coating to bead water and prevent the fabric from becoming damp ti keep your face dry. The stretchy design remains comfortable all day, all season long.",
+    "fabric_icon_waffle_fleece": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/2_Waffle.svg?v=1635444241",
+    "fabric_subtext_waffle_fleece": "Ideal for 5 to −5°C \/ 41 to 23°F",
+    "fabric_text_merino": "A highly technical, natural fibre that has superior heat managing, moisture wicking and odor preventing properties compared to man-made fibres. Merino is incredibly lightweight which allows us to make our masks smaller and more compact without sacrificing performance in all conditions. We added 5% Spandex to the fabric to increase durability, comfort and maintain the shape. Protect yourself naturally with our renewable fabric.",
+    "fabric_icon_merino": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/3_Merino_Milk.svg?v=1635444241",
+    "fabric_subtext_merino": "Ideal for 5 to −5°C \/ 41 to 23°F",
+    "fabric_text_milk_fleece": "A luxurious, warm and beautifully rich fabric. Hydrophobic in nature, Milk Fleece has less risk of moisture absorption to keep you warm and dry.",
+    "fabric_icon_milk_fleece": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/milk-slider.svg?v=1634344236",
+    "fabric_subtext_milk_fleece": "Ideal for 0 to −10°C \/ 32 to 14°F",
+    "fabric_text_drytech_thermal_fleece": "A high performance microfibre fabric that wicks moisture and regulates your temperature. Our high density, fine yarn polyester & spandex finish includes a DWR (Durable Water Repellent) coating to bead water and keep moisture away from your face, making it one of our most popular options.",
+    "fabric_icon_drytech_thermal_fleece": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/drytech-slider.svg?v=1634344253",
+    "fabric_subtext_drytech_thermal_fleece": "Ideal for −5 to −15°C \/ 23 to 5°F",
+    "fabric_text_polar_fleece": "A high performance polyester & spandex construction that performs in all conditions. Polar fleece repels moisture and protects against cold and heat making it ideal for everything from mid winter adventures to spring park laps. We also apply a DWR (Durable Water Repellent) coating to bead water and prevent the fabric from becoming saturated to keep your face dry and comfortable.",
+    "fabric_icon_polar_fleece": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/polar-slider.svg?v=1634344301",
+    "fabric_subtext_polar_fleece": "Ideal for −5 to −15°C \/ 23 to 5°F",
+    "fabric_text_10k_softshell": "A highly technical fabric construction that is designed to perform in harsher conditions. Softshell fabric combines water repellency, wind resistance and superior comfort. The outer layer prevents icy winds from lowering your temperature and a DWR (Durable water Repellent) coating beads water to prevent the fabric from becoming saturated.",
+    "fabric_icon_10k_softshell": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/softshell-slider.svg?v=1634344477",
+    "fabric_subtext_10k_softshell": "Ideal for −5 to −15°C \/ 5 to 23°F",
+    "fabric_text_10k_hardshell": "A highly technical fabric that provides lightweight, durable, waterproof and breathable protection in rain or snow. We called it 'hardshell' because the fabric is highly durable and acts like a solid barrier between you and the elements.",
+    "fabric_icon_10k_hardshell": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/hardshell-slider.svg?v=1634344477",
+    "fabric_subtext_10k_hardshell": "Ideal for −5° to −20°C \/ 23 to −4°F",
+    "fabric_text_microfleece": "A traditional, lightweight, soft fabric that stays warm, even when wet. Because it doesn't retain water, Microfleece will keep your face warm and cozy in varied conditions. We also apply a DWR (Durable Water Repellent) coating to bead water as an additional defence against the elements to keep your face dry and comfortable.",
+    "fabric_icon_microfleece": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/microfleece-slider.svg?v=1634344477",
+    "fabric_subtext_microfleece": "Ideal for −10 to −25°C \/ 14 to −13°F",
+    "fabric_text_sherpa": "A variant of stretch knit polyester fleece fabric with two distinct sides; one has a smooth knit and the other has a texture intended to imitate the look and feel of a sheep's fleece. Stay extra warm and cozy in this fabric.",
+    "fabric_icon_sherpa": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/sherpa-slider.svg?v=1634344477",
+    "fabric_subtext_sherpa": "Ideal for −15 to −30°C \/ 5 to −22°F",
+    "fabric_text_insulated": "100% duck down insulation creates high-loft clusters that trap air and body heat. In addition to its ability to efficiently trap heat, down is also incredibly breathable, allowing it to wick unwanted moisture away from your body to evaporate. Because of its supreme warmth-to-weight ratio and incredible compressibility - which makes it easy to pack - down is considered the crème de la crème of insulators.",
+    "fabric_icon_insulated": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/insulated-slider.svg?v=1634344477",
+    "fabric_subtext_insulated": "Ideal for −35°C+ \/ −31°F+",
+    "fabric_title_1": "Drylite",
+    "fabric_text_1": "A lightweight, perforated, quick dry fabric that acts like a second skin. Made from a blend of polyester and lycra, Drylite has incredible moisture wicking properties and a UPF 50 finish for 98% UV protection so you can stay cool, dry an protected in spring conditions or when the sun is shining.",
+    "fabric_icon_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/drylite-slider.svg?v=1634344144",
+    "fabric_subtext_1": "Ideal for 0 to 5°C+ \/ 32 to 41°F+",
+    "fabric_title_2": "Waffle Fleece",
+    "fabric_text_2": "A lightweight, technical gridded fleece fabric that is moisture wicking and allows air to flow freely to keep you warm and dry. We also apply a DWR (Durable Water Repellent) coating to bead water and prevent the fabric from becoming damp ti keep your face dry. The stretchy design remains comfortable all day, all season long.",
+    "fabric_icon_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/waffle-slider.svg?v=1634344152",
+    "fabric_subtext_2": "Ideal for 5 to −5°C \/ 41 to 23°F",
+    "fabric_title_3": "Merino",
+    "fabric_text_3": "A highly technical, natural fibre that has superior heat managing, moisture wicking and odor preventing properties compared to man-made fibres. Merino is incredibly lightweight which allows us to make our masks smaller and more compact without sacrificing performance in all conditions. We added 5% Spandex to the fabric to increase durability, comfort and maintain the shape. Protect yourself naturally with our renewable fabric.",
+    "fabric_icon_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/merino-slider.svg?v=1634344236",
+    "fabric_subtext_3": "Ideal for 5 to −5°C \/ 41 to 23°F",
+    "fabric_title_4": "Milk Fleece",
+    "fabric_text_4": "A luxurious, warm and beautifully rich fabric. Hydrophobic in nature, Milk Fleece has less risk of moisture absorption to keep you warm and dry.",
+    "fabric_icon_4": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/milk-slider.svg?v=1634344236",
+    "fabric_subtext_4": "Ideal for 0 to −10°C \/ 32 to 14°F",
+    "fabric_title_5": "Drytech Thermal Fleece",
+    "fabric_text_5": "A high performance microfibre fabric that wicks moisture and regulates your temperature. Our high density, fine yarn polyester & spandex finish includes a DWR (Durable Water Repellent) coating to bead water and keep moisture away from your face, making it one of our most popular options.",
+    "fabric_icon_5": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/drytech-slider.svg?v=1634344253",
+    "fabric_subtext_5": "Ideal for −5 to −15°C \/ 23 to 5°F",
+    "fabric_title_6": "Polar Fleece",
+    "fabric_text_6": "A high performance polyester & spandex construction that performs in all conditions. Polar fleece repels moisture and protects against cold and heat making it ideal for everything from mid winter adventures to spring park laps. We also apply a DWR (Durable Water Repellent) coating to bead water and prevent the fabric from becoming saturated to keep your face dry and comfortable.",
+    "fabric_icon_6": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/polar-slider.svg?v=1634344301",
+    "fabric_subtext_6": "Ideal for −5 to −15°C \/ 23 to 5°F",
+    "fabric_title_7": "10K Softshell",
+    "fabric_text_7": "A highly technical fabric construction that is designed to perform in harsher conditions. Softshell fabric combines water repellency, wind resistance and superior comfort. The outer layer prevents icy winds from lowering your temperature and a DWR (Durable water Repellent) coating beads water to prevent the fabric from becoming saturated.",
+    "fabric_icon_7": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/softshell-slider.svg?v=1634344477",
+    "fabric_subtext_7": "Ideal for −5 to −15°C \/ 5 to 23°F",
+    "fabric_title_8": "10k Hardshell",
+    "fabric_text_8": "A highly technical fabric that provides lightweight, durable, waterproof and breathable protection in rain or snow. We called it 'hardshell' because the fabric is highly durable and acts like a solid barrier between you and the elements.",
+    "fabric_icon_8": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/hardshell-slider.svg?v=1634344477",
+    "fabric_subtext_8": "Ideal for −5° to −20°C \/ 23 to −4°F",
+    "fabric_title_9": "Microfleece",
+    "fabric_text_9": "A traditional, lightweight, soft fabric that stays warm, even when wet. Because it doesn't retain water, Microfleece will keep your face warm and cozy in varied conditions. We also apply a DWR (Durable Water Repellent) coating to bead water as an additional defence against the elements to keep your face dry and comfortable.",
+    "fabric_icon_9": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/microfleece-slider.svg?v=1634344477",
+    "fabric_subtext_9": "Ideal for −10 to −25°C \/ 14 to −13°F",
+    "fabric_title_10": "Sherpa",
+    "fabric_text_10": "A variant of stretch knit polyester fleece fabric with two distinct sides; one has a smooth knit and the other has a texture intended to imitate the look and feel of a sheep's fleece. Stay extra warm and cozy in this fabric.",
+    "fabric_icon_10": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/sherpa-slider.svg?v=1634344477",
+    "fabric_subtext_10": "Ideal for −15 to −30°C \/ 5 to −22°F",
+    "fabric_title_11": "Insulated",
+    "fabric_text_11": "100% duck down insulation creates high-loft clusters that trap air and body heat. In addition to its ability to efficiently trap heat, down is also incredibly breathable, allowing it to wick unwanted moisture away from your body to evaporate. Because of its supreme warmth-to-weight ratio and incredible compressibility - which makes it easy to pack - down is considered the crème de la crème of insulators.",
+    "fabric_icon_11": "https:\/\/cdn.shopify.com\/s\/files\/1\/0990\/9686\/files\/insulated-slider.svg?v=1634344477",
+    "fabric_subtext_11": "Ideal for −35°C+ \/ −31°F+",
+    "animations_enable": true,
+    "image_autoheight_enable": true,
+    "tag_sellout": false,
+    "tag_sale": false,
+    "sections": {
+      "announcement": {
+        "type": "announcement",
+        "blocks": {
+          "announce_shipping": {
+            "type": "message",
+            "settings": {
+              "message": "Spend ||amount|| more for free shipping.",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "announce_text": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "text": "<p><strong>Orders Placed Now Will Ship April 5th<\/strong><\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          }
+        },
+        "block_order": [
+          "announce_shipping",
+          "announce_text"
+        ],
+        "settings": {
+          "bg_color": "#d7212a",
+          "color": "#ffffff",
+          "text_size": 2,
+          "layout": "slider",
+          "speed": 5
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1033e297-9ef7-4b5c-81d5-679fe05475d9": {
+            "type": "fabric_headers",
+            "settings": {
+              "position": "1",
+              "column_title": "Shop By Fabric",
+              "title": "Best for warm spring conditions",
+              "title_2": "Cold to moderate conditions",
+              "title_3": "Best for the coldest conditions",
+              "color_top": "#f8d137",
+              "color_middle": "#f28020",
+              "color_bottom": "#ea1c24",
+              "links": "<p><a href=\"\/collections\/drylite\" title=\"Drylite\">Drylite<\/a><\/p><p><a href=\"\/collections\/wafflefleece\" title=\"Waffle Fleece\">Wafflefleece<\/a><\/p><p><a href=\"\/collections\/merino\" title=\"Merino\">Merino<\/a><\/p><p><a href=\"\/collections\/milkfleece\" title=\"Milk Fleece\">Milk Fleece<\/a><\/p><p><a href=\"\/collections\/polar\" title=\"Polar\">Polar Fleece<\/a><\/p><p><a href=\"\/collections\/polartec-power-dry\" title=\"Polartec® Power Dry®\">Polartec® Power Dry®<\/a><\/p><p><a href=\"\/collections\/softshell\" title=\"10K Softshell\">10k Softshell<\/a><\/p><p><a href=\"\/collections\/microfleece\" title=\"Microfleece\">Microfleece<\/a><\/p><p><a href=\"\/collections\/polartec-shearling-fleece\" title=\"Polartec Shearling Fleece™\">Polartec® Shearling Fleece<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1033e297-9ef7-4b5c-81d5-679fe05475d9"
+        ],
+        "settings": {
+          "header_style": "logo_center",
+          "logo_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0574\/0858\/5878\/files\/airhole-logo.svg?v=1634188939",
+          "logo_max_limit": 120,
+          "main_menu_linklist": "main-menu-pipeline",
+          "underline_current": false,
+          "enable_search": true,
+          "enable_account": true,
+          "use_icons": true,
+          "header_sticky": "sticky",
+          "transparent_home": false,
+          "transparent_collection": false,
+          "transparent_blog": false,
+          "transparent_article": false,
+          "transparent_page": false,
+          "transparent_text_color": "#000000"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "linklist": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "shop",
+              "accordion_default": ""
+            }
+          },
+          "c156d5b8-8d02-4c71-b997-4334ce7d2d3a": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "brand",
+              "accordion_default": ""
+            }
+          },
+          "819990d9-8fe0-4071-9a65-23a7d6f2e2b2": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "help",
+              "accordion_default": ""
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "richtext": "<p>Be the first to know about new releases, exclusive offers and special events.<\/p>",
+              "accordion_default": ""
+            }
+          }
+        },
+        "block_order": [
+          "linklist",
+          "c156d5b8-8d02-4c71-b997-4334ce7d2d3a",
+          "819990d9-8fe0-4071-9a65-23a7d6f2e2b2",
+          "newsletter"
+        ],
+        "settings": {
+          "footer_secondary_linklist": "footer",
+          "footer_payment_enable": false,
+          "footer_social_enable": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "currency_select_type": "currency"
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "blocks": {
+          "cookies": {
+            "type": "cookie",
+            "disabled": true,
+            "settings": {
+              "show_cookies_popup": true,
+              "text_title": "Are Cookies OK?",
+              "text_body": "<p>We use cookies to improve your browsing experience<\/p>",
+              "text_accept": "Accept",
+              "text_learn": "Learn more",
+              "learn_url": "shopify:\/\/policies\/privacy-policy",
+              "text_color": "text--neutral",
+              "button_color": "btn--neutral",
+              "button_style": "btn--soft uppercase",
+              "bg": "section bg--neutral",
+              "position": "popup--left"
+            }
+          },
+          "newsletter_signup": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Join the club",
+              "text": "<p>Be the first to know about new collections, exclusive offers, and special events. <\/p>",
+              "success": "Thank you! Your subscription has been confirmed.",
+              "text_color": "text--neutral",
+              "bg": "section bg--neutral",
+              "position": "popup--left",
+              "trigger": "always",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          }
+        },
+        "block_order": [
+          "cookies",
+          "newsletter_signup"
+        ],
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "16348626344cd252a4": {
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Bright": {
+      "color_announcement_bg": "#fffcf9",
+      "color_announcement_text": "#766456",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#766456",
+      "color_nav_border": "#f8f0e7",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#766456",
+      "color_primary": "#d2815f",
+      "color_secondary": "#687158",
+      "color_bg_light": "#fcfaf7",
+      "color_bg_inverse": "#453d38",
+      "color_primary_inverse": "#ffe5da",
+      "color_secondary_inverse": "#dff3fd",
+      "color_bg_accent_inverse": "#191008",
+      "product_background_color": "#ffffff",
+      "color_footer_bg": "#f9f6f2",
+      "color_footer_text": "#766456",
+      "type_heading_size": 100,
+      "font_title_capitalize": false,
+      "type_accent_font": "itc_johnston_n5",
+      "type_accent_size": 100,
+      "type_base_font": "harmonia_sans_n4",
+      "type_body_size": 100,
+      "animations_scroll_enable": true,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "under",
+      "image_hover_enable": true,
+      "product_grid_image": "crop",
+      "cart_style": "drawer",
+      "sections": {
+        "announcement": {
+          "type": "announcement",
+          "blocks": {
+            "announce_text": {
+              "type": "text",
+              "disabled": true,
+              "settings": {
+              }
+            },
+            "announce_shipping": {
+              "type": "message",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "announce_text",
+            "announce_shipping"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "blocks": {
+            "collection_block": {
+              "type": "collection",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "collection_block"
+          ],
+          "settings": {
+            "main_menu_linklist": "main-menu"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "linklist",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "linklist",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+          }
+        },
+        "popups": {
+          "type": "popups",
+          "blocks": {
+            "cookies": {
+              "type": "cookie",
+              "disabled": true,
+              "settings": {
+                "show_cookies_popup": true,
+                "text_title": "Are Cookies OK?",
+                "text_body": "<p>We use cookies to improve your browsing experience<\/p>",
+                "text_accept": "Accept",
+                "text_learn": "Learn more",
+                "learn_url": "shopify:\/\/policies\/privacy-policy"
+              }
+            },
+            "newsletter_signup": {
+              "type": "newsletter",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "cookies",
+            "newsletter_signup"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Light": {
+      "color_announcement_bg": "#f7f7f7",
+      "color_announcement_text": "#656565",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#656565",
+      "color_nav_border": "#f7f7f7",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#656565",
+      "color_primary": "#f4a482",
+      "color_secondary": "#585e71",
+      "color_bg_light": "#f7f7f7",
+      "color_bg_inverse": "#2e3438",
+      "color_text_inverse": "#ffffff",
+      "color_primary_inverse": "#fcd8c8",
+      "color_secondary_inverse": "#c6dae5",
+      "color_bg_accent_inverse": "#222324",
+      "product_background_color": "#ffffff",
+      "color_footer_bg": "#ffffff",
+      "color_footer_text": "#656565",
+      "type_heading_font": "ovo_n4",
+      "type_heading_size": 100,
+      "font_title_capitalize": false,
+      "type_accent_font": "itc_johnston_n5",
+      "type_accent_size": 100,
+      "type_base_font": "harmonia_sans_n4",
+      "type_body_size": 100,
+      "button_radius": 0,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "image_hover_enable": true,
+      "animations_scroll_enable": true,
+      "product_grid_image": "crop",
+      "cart_style": "pop",
+      "sections": {
+        "announcement": {
+          "type": "announcement",
+          "blocks": {
+            "announce_text": {
+              "type": "text",
+              "disabled": true,
+              "settings": {
+              }
+            },
+            "announce_shipping": {
+              "type": "message",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "announce_text",
+            "announce_shipping"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "blocks": {
+            "collection_block": {
+              "type": "collection",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "collection_block"
+          ],
+          "settings": {
+            "main_menu_linklist": "main-menu"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "linklist",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "linklist",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+          }
+        },
+        "popups": {
+          "type": "popups",
+          "blocks": {
+            "cookies": {
+              "type": "cookie",
+              "disabled": true,
+              "settings": {
+                "show_cookies_popup": true,
+                "text_title": "Are Cookies OK?",
+                "text_body": "<p>We use cookies to improve your browsing experience<\/p>",
+                "text_accept": "Accept",
+                "text_learn": "Learn more",
+                "learn_url": "shopify:\/\/policies\/privacy-policy"
+              }
+            },
+            "newsletter_signup": {
+              "type": "newsletter",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "cookies",
+            "newsletter_signup"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Dark": {
+      "color_announcement_bg": "#000000",
+      "color_announcement_text": "#d4d4d4",
+      "color_header_bg": "#000000",
+      "color_header_text": "#f1f1f1",
+      "color_nav_border": "#282828",
+      "color_body_bg": "#131313",
+      "color_body_text": "#E4E6E6",
+      "color_primary": "#28a7a7",
+      "color_secondary": "#a3c7c7",
+      "color_bg_light": "#272828",
+      "color_bg_inverse": "#262626",
+      "color_text_inverse": "#e6e6e6",
+      "color_primary_inverse": "#366666",
+      "color_secondary_inverse": "#ffffff",
+      "color_bg_accent_inverse": "#131313",
+      "product_background_color": "#131313",
+      "color_footer_bg": "#000000",
+      "color_footer_text": "#fdfdfd",
+      "type_heading_font": "basic_commercial_n7",
+      "type_heading_size": 100,
+      "font_title_capitalize": false,
+      "type_accent_font": "karla_n4",
+      "type_accent_size": 115,
+      "type_base_font": "basic_commercial_n4",
+      "type_body_size": 125,
+      "button_radius": 0,
+      "parallax_enable": true,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "under",
+      "image_hover_enable": true,
+      "product_grid_image": "crop",
+      "product_grid_aspect_ratio": 1.4,
+      "swatches_enable": true,
+      "badge_sale_discount": true,
+      "badge_sale_type": "dollar",
+      "color_badge": "#28a7a7",
+      "color_badge_text": "#ffffff",
+      "animations_enable": true,
+      "image_autoheight_enable": true,
+      "tag_sellout": false,
+      "tag_sale": false,
+      "cart_style": "pop",
+      "sections": {
+        "announcement": {
+          "type": "announcement",
+          "blocks": {
+            "announce_text": {
+              "type": "text",
+              "disabled": true,
+              "settings": {
+              }
+            },
+            "announce_shipping": {
+              "type": "message",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "announce_text",
+            "announce_shipping"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "blocks": {
+            "collection_block": {
+              "type": "collection",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "collection_block"
+          ],
+          "settings": {
+            "main_menu_linklist": "main-menu"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "linklist",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "linklist",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+          }
+        },
+        "popups": {
+          "type": "popups",
+          "blocks": {
+            "cookies": {
+              "type": "cookie",
+              "disabled": true,
+              "settings": {
+                "show_cookies_popup": true,
+                "text_title": "Are Cookies OK?",
+                "text_body": "<p>We use cookies to improve your browsing experience<\/p>",
+                "text_accept": "Accept",
+                "text_learn": "Learn more",
+                "learn_url": "shopify:\/\/policies\/privacy-policy"
+              }
+            },
+            "newsletter_signup": {
+              "type": "newsletter",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "cookies",
+            "newsletter_signup"
+          ],
+          "settings": {
+          }
+        }
+      }
+    }
+  }
+}

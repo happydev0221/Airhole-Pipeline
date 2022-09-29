@@ -1,0 +1,188 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align": "align--middle-left",
+        "show_title": false,
+        "show_title_below": false,
+        "show_description": false,
+        "show_description_below": false,
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_third",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "disabled": true,
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "disabled": true,
+      "blocks": {
+        "c2a70e62-2e34-402e-a19d-1891e3a80b32": {
+          "type": "nav_links",
+          "settings": {
+            "collection_linklist": ""
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {
+          }
+        },
+        "9498434e-d789-49cf-884c-a968425d8c6b": {
+          "type": "group",
+          "settings": {
+            "title": "Filter by size",
+            "group_tags": "Small, Medium, Large"
+          }
+        }
+      },
+      "block_order": [
+        "c2a70e62-2e34-402e-a19d-1891e3a80b32",
+        "filters",
+        "9498434e-d789-49cf-884c-a968425d8c6b"
+      ],
+      "settings": {
+        "grid_setting_large": 4,
+        "grid_setting_small": 2,
+        "product_limit": 36,
+        "enable_layout_toggle": false,
+        "collection_sorting": true,
+        "hide_sidebar": false
+      }
+    },
+    "16344232391ff7a766": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product-page-airhole.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 15,
+        "overlay_color": "#000",
+        "kicker": "Introducing",
+        "title": "Image with text overlay",
+        "richtext": "<p>This area is used to describe your store.<\/p>",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "View products",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "16344232910c8167b0": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "Introducing",
+        "title": "",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "textarea": "",
+        "list": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "section bg--accent"
+      }
+    },
+    "163442330260a3ce22": {
+      "type": "section-collection-tabs",
+      "blocks": {
+        "163442330260a3ce22-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "First collection"
+          }
+        }
+      },
+      "block_order": [
+        "163442330260a3ce22-0"
+      ],
+      "settings": {
+        "title": "",
+        "align_title": "text-left",
+        "grid": 4,
+        "limit": 6,
+        "bg": "section bg--neutral"
+      }
+    },
+    "16344233325740fce8": {
+      "type": "section-custom-content",
+      "blocks": {
+        "f2860daf-1be8-4d93-a2ed-e64911532443": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aha1dl-feature_1000x_1.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "127dc48b-1d9b-42b4-aad7-24e90392b192": {
+          "type": "collection",
+          "settings": {
+            "collection": "airtubes",
+            "product": "",
+            "kicker": "In this collection",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f2f2f2",
+            "bg_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "f2860daf-1be8-4d93-a2ed-e64911532443",
+        "127dc48b-1d9b-42b4-aad7-24e90392b192"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "16344232391ff7a766",
+    "16344232910c8167b0",
+    "163442330260a3ce22",
+    "16344233325740fce8"
+  ]
+}

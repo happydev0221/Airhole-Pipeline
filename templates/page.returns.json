@@ -1,0 +1,171 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "section bg--neutral"
+      }
+    },
+    "1631586233cf906c55": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "1631586233cf906c55-0": {
+          "type": "text",
+          "settings": {
+            "title": "How to return an item",
+            "text": "",
+            "textarea": "- To return an item please complete the form below. You will then be sent a set of returns instructions by email\n- If you are returning multiple items you only need to complete this form once\n- If your item is faulty or damaged please email us",
+            "text_align": "text-left"
+          }
+        },
+        "edb7c9cf-d907-496a-bc37-3ab343beef6c": {
+          "type": "text",
+          "settings": {
+            "title": "What items can I return?",
+            "text": "",
+            "textarea": "- You can return any unused item within 30 days of receipt for a full refund\n- Items must be brand new and complete with all parts, accesories, tags, labels and packaging to be eligible for a refund\n- Items returned in a non-sellable condition will not be refunded and will be returned to you\n- For faulty or damaged items or warranty claims please <a href=\"mailto:info@airholefacemasks.com\">email us<\/a>.",
+            "text_align": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "1631586233cf906c55-0",
+        "edb7c9cf-d907-496a-bc37-3ab343beef6c"
+      ],
+      "settings": {
+        "bg": "section bg--neutral"
+      }
+    },
+    "1631586370b356d0e0": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "1631586370b356d0e0-0": {
+          "type": "text",
+          "settings": {
+            "title": "Can I exchange an item?",
+            "text": "",
+            "textarea": "- Unfortunately we are unable to accomodate exchanges at this time\n- If you require an alternative product please place a new order online. We will then refund your original order when it has been returned",
+            "text_align": "text-left"
+          }
+        },
+        "0a50514b-43b8-40c0-8eb5-a41a2373a863": {
+          "type": "text",
+          "settings": {
+            "title": "How quickly will I recieve my refund?",
+            "text": "",
+            "textarea": "- Once we have received your return it will be inspected by our warehouse. If your return is approved you will automatically receive confirmtion by email. If your return is rejected for any reason you will be notified by email.\n- Please allow at least 5 days after receiving your email refund before contacting us. Banks and credit card companies can be slow at crediting your account!\n- We aim to process all returned items within 3 days of receipt of the item",
+            "text_align": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "1631586370b356d0e0-0",
+        "0a50514b-43b8-40c0-8eb5-a41a2373a863"
+      ],
+      "settings": {
+        "bg": "section bg--neutral"
+      }
+    },
+    "1631586502e1371aef": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "1631586502e1371aef-0": {
+          "type": "text",
+          "settings": {
+            "title": "Are there any charges for a return?",
+            "text": "",
+            "textarea": "- We do not charge any restocking or return fees\n- All return shipping charges must be covered by the customer. \n- Unfortunately we are not able to provide pre-paid returns labels\nOriginal shipping charges are non-refundable",
+            "text_align": "text-left"
+          }
+        },
+        "598dd9de-7503-4085-9e54-05b36eb658d8": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "",
+            "textarea": "",
+            "text_align": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "1631586502e1371aef-0",
+        "598dd9de-7503-4085-9e54-05b36eb658d8"
+      ],
+      "settings": {
+        "bg": "section bg--neutral"
+      }
+    },
+    "1631586777dbd25251": {
+      "type": "section-contact",
+      "blocks": {
+        "1631586777dbd25251-0": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "1631586777dbd25251-1": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "f8266614-f103-4ebd-ba33-1a6e2fa56ca5": {
+          "type": "text",
+          "settings": {
+            "title": "Order #"
+          }
+        },
+        "c156dc22-0d0d-40a4-b72d-2cd879e38e7b": {
+          "type": "select",
+          "settings": {
+            "title": "Reason for return",
+            "label_one": "Item didn't fit",
+            "label_two": "No longer required",
+            "label_three": "Arrived too late",
+            "label_four": "Didn't match website",
+            "label_five": "Wrong product ordered",
+            "label_six": "Incorrect item received"
+          }
+        },
+        "1631586777dbd25251-2": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        }
+      },
+      "block_order": [
+        "1631586777dbd25251-0",
+        "1631586777dbd25251-1",
+        "f8266614-f103-4ebd-ba33-1a6e2fa56ca5",
+        "c156dc22-0d0d-40a4-b72d-2cd879e38e7b",
+        "1631586777dbd25251-2"
+      ],
+      "settings": {
+        "title": "Start a return",
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "section bg--accent"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1631586233cf906c55",
+    "1631586370b356d0e0",
+    "1631586502e1371aef",
+    "1631586777dbd25251"
+  ]
+}
