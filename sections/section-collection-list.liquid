@@ -1,27 +1,29 @@
 {%- for product in collection.products -%}
 
   {%- liquid
-       assign fabric = product.metafields.global.fabric
-       assign fabric_handle = fabric | handle | replace: '-', '_'
+     assign fabric = product.metafields.global.fabric
+     assign fabric_handle = fabric | handle | replace: '-', '_' | remove: '®'
    
-       assign var_fabric_text = 'fabric_text_' | append: fabric_handle
-       assign fabric_text = settings[var_fabric_text]
+     assign var_fabric_text = 'fabric_text_' | append: fabric_handle
+     assign fabric_text = settings[var_fabric_text]
    
-       assign fabric_icon_var = 'fabric_icon_' | append: fabric_handle
-       assign fabric_icon = settings[fabric_icon_var]
+     assign fabric_icon_var = 'fabric_icon_' | append: fabric_handle
+     assign fabric_icon = settings[fabric_icon_var]
    
-       assign fabric_rating_var = 'fabric_subtext_' | append: fabric_handle
-       assign fabric_rating = settings[fabric_rating_var]
-       
-       for option in product.options_with_values
-         if option.name == 'Color' or option.name == 'color'
-           assign number_of_colors = option.values | size
-         endif
-       endfor
+     assign fabric_rating_var = 'fabric_subtext_' | append: fabric_handle
+     assign fabric_rating = settings[fabric_rating_var]
+     
+     for option in product.options_with_values
+       if option.name == 'Color' or option.name == 'color'
+         assign number_of_colors = option.values | size
+       endif
+     endfor
    
-     -%}
+   -%}
 
   {%- capture slide_content -%}
+    <span {{collection.title }}></span>
+    <span {{ fabric}}></span>
     {% if collection.title == fabric or fabric == blank %}
       <h5 class="pt1">{{ product.title | split: ' | ' | first }}
       </h5>
@@ -80,12 +82,12 @@
             {% assign colors = colors | append: '-' | append: color %}
             <div class="product-grid-slide">
               {% render 'product-variant-item' with
-                                 product: product,
-                   color: color,
-                   color_index: index,
-                   swatches_enabled: show_swatches,
-                   aspect_ratio: aspect_ratio
-                   %}
+                                                   product: product,
+                                     color: color,
+                                     color_index: index,
+                                     swatches_enabled: show_swatches,
+                                     aspect_ratio: aspect_ratio
+                                     %}
             </div>
           {% endfor %}
         {% else %}
